@@ -14,3 +14,11 @@ function openNav() {
         .querySelector(".custom_menu-btn")
         .classList.toggle("menu_btn-style");
 }
+
+function openImageFolder() {
+    // Specify the path to your folder containing PNG images
+    var folderPath = "prices/";
+
+    // Open a new window with the folder path
+    window.open(folderPath);
+  }
