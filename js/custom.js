@@ -17,7 +17,7 @@ function openNav() {
 
 function openImageFolder() {
     // Specify the path to your folder containing PNG images
-    var folderPath = "prices/";
+    var folderPath = "prices";
 
     // Open a new window with the folder path
     window.open(folderPath);
